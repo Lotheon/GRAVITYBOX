@@ -1,0 +1,25 @@
+{
+  "name": "npm_components",
+  "version": "1.0.0",
+  "description": "components",
+  "main": "npm",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lotheon/GRAVITYBOX.git"
+  },
+  "keywords": [
+    "GRAVITYBOX"
+  ],
+  "author": "Fred LOTH",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Lotheon/GRAVITYBOX/issues"
+  },
+  "homepage": "https://github.com/Lotheon/GRAVITYBOX#readme"
+}
