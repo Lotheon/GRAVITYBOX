@@ -1,14 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="gravitybox" ng-strict-di>
     <head>
         <title>GRAVITYBOX</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylsheet" href="css/gravitybox.css">
+        <link rel="stylesheet" href="css/gravitybox.css">
         
     </head>
     <body>
-        <div>TODO write content</div>
+        <div>
+            <!-- HEADER (navbar) -->
+            <header role="banner">
+                <nav role="navigation">
+                    
+                    <div>
+                        <i style=" width: 175px; height: 50px; border: 0px; margin-left:25px; font-size: 40px; font-variant: small-caps; color: whitesmoke;">Gravity<b style="color: blueviolet;">B</b>ox</i>
+                    </div>
+                    
+                    <ul>
+                        <li>
+                            <a href="/">
+                                <div>
+                                    Home
+                                    <span>there's no place like it</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/blog">
+                                <div>
+                                    Blog
+                                    <span>my thoughts rock</span>
+                                </div>
+                            </a>
+                            <div>
+                                <ul>
+                                    <li><a href="#">Me</a></li>
+                                    <li><a href="#">Gaming</a></li>
+                                    <li><a href="#">Sport</a></li>
+                                    <li><a href="#">Web Design</a></li>
+                                    <li><a href="#">Web Development</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/contact">
+                                <div>
+                                    Contact
+                                    <span>drop me a line</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/forum">
+                                <div>
+                                    Forum
+                                    <span>chat with others</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div>
+                <!-- Milieu de page !!! (canvas) -->
+            </div>
+            
+            <!-- FOOTER -->
+
+            <footer style="padding:10px; margin:0;">
+                <p>Posted by: Hege Refsnes</p>
+                <p>Contact information: <a href="mailto:someone@example.com">
+                        someone@example.com</a>.</p>
+            </footer>
+            
+        </div>
         
         <!-- Scripts JavaScript -->
         <script src="components/angular/angular.js"></script>
